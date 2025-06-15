@@ -29,7 +29,7 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
         <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
             <h2 className="font-general text-sm uppercase md:text-[10px]">
-                Welcome to Zaffer
+                Welcome to !XARA
             </h2>
 
             <AnimatedTitle
@@ -43,7 +43,7 @@ const About = () => {
                 </p>
 
                 <p>
-                    Zaffer unites every player from countless walks and gaming platforms
+                    !XARA unites every player from countless walks and gaming platforms
                 </p>
             </div>
         </div>

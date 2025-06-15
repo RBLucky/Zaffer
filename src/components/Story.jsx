@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import AnimatedTitle from './AnimatedTitle'
 import gsap from 'gsap'
+import RoundedCorners from './RoundedCorners'
+import Button from './Button'
 
 const Story = () => {
   const frameRef = useRef('null')
@@ -68,6 +70,22 @@ const Story = () => {
                             />
                         </div>
                     </div>
+
+                    <RoundedCorners />
+                </div>
+            </div>
+
+            <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
+                <div className="flex h-full w-fit flex-col items-center md:items-start">
+                    <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+                        Where ancestors whisper and myths awaken, lies !XARA. Step into the story older than the stars — and write your own within it.
+                    </p>
+
+                    <Button
+                        id="realm-button"
+                        title="discover prologue"
+                        containerClass="mt-5"
+                    />
                 </div>
             </div>
         </div>

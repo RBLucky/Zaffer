@@ -39,11 +39,11 @@ const About = () => {
 
             <div className="about-subtext">
                 <p>
-                    The Dawn of Games Begins - Our history, <br /> now an epic MMORPG
+                    !XARA<br/> The Dawn of Man Meets the Edge of Singularity
                 </p>
 
                 <p>
-                    !XARA unites every player from countless walks and gaming platforms
+                    <br/>Our history, now an epic MMORPG
                 </p>
             </div>
         </div>

@@ -11,7 +11,7 @@ const links = [
         icon: <FaX />
     },
     {
-        href: 'https://github.com',
+        href: 'https://github.com/RBLucky/Zaffer',
         icon: <FaGithub />
     },
     {
